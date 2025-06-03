@@ -1,4 +1,4 @@
-pkgname="@artist"
+pkgname="axos-artist-kit"
 pkgver=1.0
 pkgrel=1
 pkgdesc="Artist user kit meta-package for AxOS"

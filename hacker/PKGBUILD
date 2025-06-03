@@ -1,4 +1,4 @@
-pkgname="@hacker"
+pkgname="axos-hacker-kit"
 pkgver=1.0
 pkgrel=1
 pkgdesc="Hacker user kit meta-package for AxOS"

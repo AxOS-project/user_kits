@@ -1,4 +1,4 @@
-pkgname="@developer"
+pkgname="axos-developer-kit"
 pkgver=1.0
 pkgrel=1
 pkgdesc="Developer user kit meta-package for AxOS"

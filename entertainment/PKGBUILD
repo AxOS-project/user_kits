@@ -1,4 +1,4 @@
-pkgname="@entertainment"
+pkgname="axos-entertainment-kit"
 pkgver=1.0
 pkgrel=1
 pkgdesc="Entertainment user kit meta-package for AxOS"

@@ -1,4 +1,4 @@
-pkgname="@office"
+pkgname="axos-office-kit"
 pkgver=1.0
 pkgrel=1
 pkgdesc="Office user kit meta-package for AxOS"
