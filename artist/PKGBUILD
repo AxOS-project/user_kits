@@ -1,0 +1,21 @@
+pkgname="@artist"
+pkgver=1.0
+pkgrel=1
+pkgdesc="Artist user kit meta-package for AxOS"
+arch=('x86_64')
+depends=(
+  'gimp'
+  'krita'
+  'inkscape'
+  'blender'
+  'obs-studio'
+  'fontforge'
+  'darktable'
+  'shotcut'
+  'xournalpp'
+  'xclip'
+  'lmms'
+  'audacity'
+  'ffmpeg'
+  'imagemagick'
+)

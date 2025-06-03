@@ -1,0 +1,22 @@
+pkgname="@hacker"
+pkgver=1.0
+pkgrel=1
+pkgdesc="Hacker user kit meta-package for AxOS"
+arch=('x86_64')
+depends=(
+  'nmap'
+  'wireshark-qt'
+  'hydra'
+  'nikto'
+  'john'
+  'gdb'
+  'radare2'
+  'binwalk'
+  'curl'
+  'dnsutils'
+  'netcat'
+  'socat'
+  'tcpdump'
+  'htop'
+  'tmux'
+)

@@ -1,0 +1,12 @@
+pkgname="@entertainment"
+pkgver=1.0
+pkgrel=1
+pkgdesc="Entertainment user kit meta-package for AxOS"
+arch=('x86_64')
+depends=(
+  'axuralis'
+  'vlc'
+  'mpv'
+  'vesktop'
+  'lutris'
+)

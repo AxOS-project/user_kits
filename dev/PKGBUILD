@@ -1,0 +1,27 @@
+pkgname="@developer"
+pkgver=1.0
+pkgrel=1
+pkgdesc="Developer user kit meta-package for AxOS"
+arch=('x86_64')
+depends=(
+  'git'
+  'vim'
+  'neovim'
+  'base-devel'
+  'cmake'
+  'nodejs'
+  'npm'
+  'python'
+  'python-pip'
+  'python-virtualenv'
+  'python-pipx'
+  'rustup'
+  'docker'
+  'htop'
+  'curl'
+  'ripgrep'
+  'exa'
+  'tmux'
+  'opencl-mesa'
+  'rust'
+)
