@@ -3,25 +3,66 @@ pkgver=1.0
 pkgrel=1
 pkgdesc="Developer user kit meta-package for AxOS"
 arch=('x86_64')
-depends=(
+
+# Version Control
+depends+=(
   'git'
-  'vim'
+  'lazygit'
+)
+
+# Editors
+depends+=(
   'neovim'
+)
+
+# Build Tools
+depends+=(
   'base-devel'
   'cmake'
+)
+
+# Javascript
+depends+=(
   'nodejs'
+  'pnpm'
   'npm'
+)
+
+# Python
+depends+=(
   'python'
   'python-pip'
   'python-virtualenv'
   'python-pipx'
+)
+
+# Rust
+depends+=(
   'rustup'
-  'docker'
+)
+
+# Containers
+depends+=(
+  'podman'
+  'podman-docker'
+  'crun'
+)
+
+# Utilities
+depends+=(
   'htop'
   'curl'
   'ripgrep'
   'exa'
   'tmux'
+)
+
+# Java
+depends+=(
+  'jdk-openjdk'
+)
+
+# Graphics
+depends+=(
   'opencl-mesa'
-  'rust'
 )

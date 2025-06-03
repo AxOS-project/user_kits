@@ -3,10 +3,20 @@ pkgver=1.0
 pkgrel=1
 pkgdesc="Entertainment user kit meta-package for AxOS"
 arch=('x86_64')
+
+# Core dependencies
 depends=(
   'axuralis'
+)
+
+# Media Players
+depends+=(
   'vlc'
   'mpv'
+)
+
+# Applications
+depends+=(
   'vesktop'
   'lutris'
 )

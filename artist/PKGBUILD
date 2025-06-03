@@ -3,19 +3,33 @@ pkgver=1.0
 pkgrel=1
 pkgdesc="Artist user kit meta-package for AxOS"
 arch=('x86_64')
+
+# Graphics Section
 depends=(
   'gimp'
   'krita'
   'inkscape'
   'blender'
-  'obs-studio'
   'fontforge'
   'darktable'
+  'imagemagick'
+)
+
+# Streaming / Video Editing
+depends+=(
+  'obs-studio'
   'shotcut'
+  'ffmpeg'
+)
+
+# Utilities
+depends+=(
   'xournalpp'
   'xclip'
+)
+
+# Audio
+depends+=(
   'lmms'
   'audacity'
-  'ffmpeg'
-  'imagemagick'
 )
