@@ -3,20 +3,38 @@ pkgver=1.0
 pkgrel=1
 pkgdesc="Hacker user kit meta-package for AxOS"
 arch=('x86_64')
-depends=(
+
+# Network Analysis
+depends+=(
   'nmap'
   'wireshark-qt'
-  'hydra'
-  'nikto'
-  'john'
-  'gdb'
-  'radare2'
-  'binwalk'
-  'curl'
+  'tcpdump'
   'dnsutils'
   'netcat'
   'socat'
-  'tcpdump'
+)
+
+# Password Cracking
+depends+=(
+  'hydra'
+  'john'
+)
+
+# Web Security
+depends+=(
+  'nikto'
+  'curl'
+)
+
+# Debugging and Reverse Engineering
+depends+=(
+  'gdb'
+  'radare2'
+  'binwalk'
+)
+
+# System Utilities
+depends+=(
   'htop'
   'tmux'
 )

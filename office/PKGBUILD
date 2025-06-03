@@ -3,16 +3,50 @@ pkgver=1.0
 pkgrel=1
 pkgdesc="Office user kit meta-package for AxOS"
 arch=('x86_64')
+
+# Office Suites
 depends=(
   'libreoffice-fresh'
+)
+
+# Document Viewers
+depends+=(
   'evince'
-  'hunspell'
-  'pandoc'
-  'abiword'
-  'gnumeric'
-  'calibre'
   'zathura'
+)
+
+# Dictionaries
+depends+=(
+  'hunspell'
+)
+
+# Converters
+depends+=(
+  'pandoc'
+)
+
+# Word Processors
+depends+=(
+  'abiword'
+)
+
+# Spreadsheets
+depends+=(
+  'gnumeric'
+)
+
+# Ebook Management
+depends+=(
+  'calibre'
+)
+
+# Scanners
+depends+=(
   'simple-scan'
+)
+
+# PDF Editors
+depends+=(
   'xournalpp'
   'masterpdfeditor-free'
 )
