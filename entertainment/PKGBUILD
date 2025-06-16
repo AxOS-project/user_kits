@@ -17,6 +17,5 @@ depends+=(
 
 # Applications
 depends+=(
-  'vesktop'
   'lutris'
 )
