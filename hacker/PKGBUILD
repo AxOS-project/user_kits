@@ -9,7 +9,7 @@ depends+=(
   'nmap'
   'wireshark-qt'
   'tcpdump'
-  'netcat'
+  'gnu-netcat'
   'socat'
 )
 
