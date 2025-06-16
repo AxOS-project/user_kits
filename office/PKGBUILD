@@ -48,5 +48,4 @@ depends+=(
 # PDF Editors
 depends+=(
   'xournalpp'
-  'masterpdfeditor-free'
 )
