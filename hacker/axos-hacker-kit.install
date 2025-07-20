@@ -1,0 +1,9 @@
+post_install() {
+ cat <<EOF 
+ Thank you for installing axos-hacker-kit!
+
+ To optionally add the BlackArch repository and install more tools, run the helper script: 
+ sudo hackerkit-installer
+
+ EOF
+}

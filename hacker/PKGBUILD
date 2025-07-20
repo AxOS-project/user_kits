@@ -6,6 +6,7 @@ arch=('x86_64')
 
 # Network Analysis
 depends+=(
+  'curl'
   'nmap'
   'wireshark-qt'
   'tcpdump'
@@ -36,16 +37,14 @@ depends+=(
   'ghidra'
   'cutter'
 )
-# Binary exploitation
-depends+=(
-  'pwndbg-git'
-  'gef'
-  'peda-git'
-)
-
 # System Utilities
 depends+=(
   'htop'
   'tmux'
 
 )
+install="axos-hacker-kit.install"
+package(){
+  install -Dm755 "$srcdir/hackerkit-installer.sh" "$pkgdir/usr/bin/hackerkit-installer"
+  
+}
